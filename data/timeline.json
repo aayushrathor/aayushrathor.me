@@ -1,0 +1,14 @@
+[
+	{
+		"date": "12-11-2021",
+		"title": "IIIT Bhopal",
+		"description": "Began studying B.Tech. CS/IT from Indian Institute Of Information Technology, Bhopal",
+		"icon": "feather:book"
+	},
+	{
+		"date": "06-01-2003",
+		"title": "Birthday!",
+		"description": "I was born the 1st of June 2003",
+		"icon": "feather:gift"
+	}
+]
