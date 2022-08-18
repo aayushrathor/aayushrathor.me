@@ -3,7 +3,7 @@
 	"name": "aayushrathor.me",
 	"version": "1.0",
 	"description": "Personal Website for aayushrathor.me",
-	"repository": "https://github.com/nurodev/aayushrathor.git",
+	"repository": "https://github.com/aayushrathor.git",
 	"homepage": "https://aayushrathor.me",
 	"packageManager": "yarn@3.2.0",
 	"prettier": {
