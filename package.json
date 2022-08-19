@@ -4,7 +4,6 @@
 	"version": "1.0",
 	"description": "Personal Website for aayushrathor.me",
 	"repository": "https://github.com/aayushrathor.git",
-	"homepage": "https://aayushrathor.me",
 	"packageManager": "yarn@3.2.0",
 	"prettier": {
 		"arrowParens": "always",
@@ -26,8 +25,7 @@
 		"lint": "next lint",
 		"type-check": "tsc",
 		"format": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx,vue}\"",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"predeploy": "npm run build"
 	},
 	"dependencies": {
 		"-": "^0.0.1",
@@ -41,7 +39,6 @@
 		"copy-to-clipboard": "^3.3.1",
 		"date-fns": "^2.24.0",
 		"emoji-regex": "^10.1.0",
-		"gh-pages": "^4.0.0",
 		"inter-ui": "^3.19.3",
 		"is-web-crawler": "^1.1.0",
 		"motion": "^10.7.2",
