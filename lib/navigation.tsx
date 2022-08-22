@@ -32,7 +32,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'feather:file',
 			text: 'Resume [WIP]',
-			href: '#',
+			href: 'https://github.com/aayushrathor/aayushrathor.me/resume.pdf',
 		},
 
 	],
