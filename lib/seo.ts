@@ -21,14 +21,6 @@ export function useSeoProps(
 			site_name: 'aayushrathor',
 			url: `https://aayushrathor.me/${router.asPath}`,
 			type: 'website',
-			images: [
-				{
-					url: '/banner.png',
-					alt: description,
-					width: 1280,
-					height: 720,
-				},
-			],
 		},
 		twitter: {
 			cardType: 'summary_large_image',
