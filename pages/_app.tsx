@@ -2,7 +2,7 @@ import NProgress from 'nprogress';
 import splitbee from '@splitbee/web';
 import { AppProps } from 'next/app';
 import { ThemeProvider } from 'next-themes';
-import { useEffectOnce, useEvent } from 'react-use';
+import { useEffectOnce } from 'react-use';
 import { useRouter } from 'next/router';
 
 import 'inter-ui/inter.css';

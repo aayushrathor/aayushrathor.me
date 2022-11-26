@@ -56,6 +56,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 
 export function useNavigation() {
 	const state = usePersistantState();
+	const { animations: background } = state.get();
 	const { theme, setTheme } = useTheme();
 
 	const menuItems: NavigationItems = [
@@ -64,6 +65,17 @@ export function useNavigation() {
 
 	const settingsItems: NavigationItems = [
 		[
+			{
+				type: NavigationItemType.ACTION,
+				icon: 'feather:image',
+				endIcon: background ? 'feather:check-circle' : 'feather:circle',
+				text: `Animations ${background ? 'On' : 'Off'}`,
+				onClick: () =>
+					state.set((settings) => ({
+						...settings,
+						animations: !settings.animations,
+					})),
+			},
 			{
 				type: NavigationItemType.ACTION,
 				icon: 'feather:monitor',
