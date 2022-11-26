@@ -9,7 +9,7 @@ import 'inter-ui/inter.css';
 import 'nprogress/nprogress.css';
 import 'windi.css';
 
-import { colors, useClick } from '~/lib';
+import { colors } from '~/lib';
 import { Theme } from '~/types';
 
 import type { NextWebVitalsMetric } from 'next/app';
@@ -43,10 +43,6 @@ export function reportWebVitals(metric: NextWebVitalsMetric) {
 
 export default function App({ Component, pageProps }: AppProps) {
 	const router = useRouter();
-	const [play] = useClick();
-
-	useEvent('mousedown', () => play());
-	useEvent('mouseup', () => play());
 
 	useEffectOnce(() => {
 		router.events.on('routeChangeStart', () => NProgress.start());
@@ -62,7 +58,7 @@ export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
 			<Component {...pageProps} />
-			<style jsx global>{`
+			<style>{`
 				#nprogress .bar {
 					height: 0.25rem;
 					background-color: ${colors.primary[500]};

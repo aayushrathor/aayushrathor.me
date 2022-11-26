@@ -8,7 +8,6 @@ import type { Settings } from '~/types';
 // Note: `createState` needed as without it it looses reactivity for some reason. Needs to be looked into further
 const DEFAULT_STATE = createState<Settings>({
 	animations: null,
-	sound: true,
 });
 
 export const STATE_KEY = 'settings';

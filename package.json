@@ -61,7 +61,6 @@
 		"remark-slug": "^7.0.0",
 		"save-dev": "^0.0.1-security",
 		"swr": "^1.0.1",
-		"use-sound": "^4.0.1",
 		"windicss": "^3.5.1"
 	},
 	"devDependencies": {
