@@ -17,7 +17,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:copy',
-			text: 'Projects [WIP]',
+			text: 'Projects',
 			href: '/projects',
 		},
 		{
@@ -31,8 +31,8 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:file',
-			text: 'Resume [WIP]',
-			href: 'https://drive.google.com/file/d/1JlxB5hhisQ3Jl3hpizFACw_lHCpzbl8w/view?usp=sharing',
+			text: 'Resume',
+			href: 'https://drive.google.com/file/d/1rGUHaGtxUn3Lmld5OmUJSTlYMM3YFF_l/view?usp=sharing',
 		},
 
 	],
